@@ -1,2 +1,2 @@
 TOKEN = 'my_token'
-PREFIX = '!'
+PREFIX = '?'
