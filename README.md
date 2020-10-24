@@ -1,2 +1,2 @@
-# Discord Bot
- My discord bot
+# Bot Documentation
+This is my first bot published on github
