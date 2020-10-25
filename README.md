@@ -1,7 +1,9 @@
 # Bot Documentation
-This is my first bot published on **Github**.
+This repository contains all the code for the bot
 
 
-## Bot commands
-1. Timer
-This command can be used by typing in your discord channel bot_timer.
+## Installation of required components
+
+### You will need
+- `Python 3.8.0` or greater. ![https://www.python.org/downloads/](https://raster.shields.io/badge/Download-Python-green.png)
+- discord.py
