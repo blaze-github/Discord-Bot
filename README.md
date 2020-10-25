@@ -1,5 +1,5 @@
 # Bot Documentation
-This repository contains all the code for the bot.
+This repository contains all the code for the bot. <br>
 This project use BSD-3-Clause License <a href='LICENSE'><img src='https://raster.shields.io/badge/Read-LICENSE-orange.png'></a>
 
 
