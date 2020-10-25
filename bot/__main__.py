@@ -1,6 +1,7 @@
 import discord                                                                  #  Import discord library
 from discord.ext import commands                                                #  From discord library import commands
-
+import config
+import token
 
 bot = discor.Client()
 bot = commands.Bot(command_prefix=config.PREFIX)                                #  Import bot prefix from config file
@@ -29,4 +30,4 @@ async def timer(ctx):
             await countdown.edit(content='**Time out**')                        #  Change message content
 
 
-bot.run(config.TOKEN)                                                           #  Run bot
+bot.run(token.TOKEN)                                                           #  Run bot
