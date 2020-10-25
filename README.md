@@ -10,12 +10,12 @@ This repository contains all the code for the bot
 
 
 ## How to get **discord** library
-You can get the library directly from PyPI:
+You can get the library directly from PyPI: <br>
 `python3 -m pip install -U discord.py`
 
-If you are using Windows, then the following should be used instead:
+If you are using Windows, then the following should be used instead: <br>
 `py -3 -m pip install -U discord.py`
 
-For a Debian-based system, the following command will get these dependencies:
+For a Debian-based system, the following command will get these dependencies: <br>
 `$ apt install libffi-dev libnacl-dev python3-dev
 `
