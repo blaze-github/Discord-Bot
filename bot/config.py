@@ -1,1 +1,1 @@
-PREFIX = '?'                                                                    #  Bot PREFIX
+PREFIX = 'bot_'                                                                 #  Bot PREFIX

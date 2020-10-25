@@ -1,6 +1,7 @@
 # Bot Documentation
-This is my first bot published on github
+This is my first bot published on **Github**.
 
 
-# Functions
-### 1. Timer
+## Bot commands
+1. Timer
+This command can be used by typing in your discord channel bot_timer.
