@@ -2,16 +2,16 @@
 
 ## Table of  Contents
 1. <a href='#overview'>Overview</a><br>
-  1.1. asdasd <br>
-  1.2. asdada
-2. <a href='#installation-of-required-components'>Installation of required components</a><br>
-3. <a href='#choose-an-ide'>Choose an IDE</a><br>
-4. <a href='#how-to-get-discord-library'>How to get discord</a><br>
-5. <a href='#help'>Help</a>
+2. <a href='#license'>License</a><br>
+3. <a href='#installation-of-required-components'>Installation of required components</a><br>
+4. <a href='#choose-an-ide'>Choose an IDE</a><br>
+5. <a href='#how-to-get-discord-library'>How to get discord</a><br>
+6. <a href='#help'>Help</a>
 
 ## Overview
 This repository contains all the code for the bot. <br>
 
+## License
 This project use BSD-3-Clause License.  <a href='LICENSE'><img src='https://raster.shields.io/badge/Read-LICENSE-orange.png'></a>
 
 
