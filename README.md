@@ -1,7 +1,7 @@
 # Bot Documentation
 This repository contains all the code for the bot. <br>
 
-This project use BSD-3-Clause License. <a href='LICENSE'><img src='https://raster.shields.io/badge/Read-LICENSE-orange.png?style=for-the-badge'></a>
+This project use BSD-3-Clause License.  <a href='LICENSE'><img src='https://raster.shields.io/badge/Read-LICENSE-orange.png?style=for-the-badge'></a>
 
 
 ## Installation of required components
@@ -75,7 +75,6 @@ For help and enquiries:
 <a href='https://www.instagram.com/sfratescu00/'>
 <img src='https://raster.shields.io/badge/contact%20me%20on-instagram-cd486b.png?style=for-the-badge&logo=instagram'>
 </a>
-<br>
 
 <img src='https://raster.shields.io/badge/2-gray.png?style=for-the-badge'>
 <a href='https://discord.com/users/385834838793388033'>
