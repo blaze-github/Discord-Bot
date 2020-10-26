@@ -7,7 +7,8 @@
   3.1. <a href='#31-you-will-need'>You will need</a><br>
   3.2. <a href='#32-how-to-get-discord-library'>How to get discord</a><br>
   3.3. <a href='#33-choose-an-ide'>Choose an IDE</a>
-4. <a href='#4-bot-commands'>Bot commands</a>
+4. <a href='#4-bot-commands'>Bot commands</a><br>
+  4.1. <a href='#41-command-name'>Command name</a>
 5. <a href='#5-help'>Help</a>
 
 ## 1. Overview
@@ -65,6 +66,8 @@ $ apt install libffi-dev libnacl-dev python3-dev
 <img src='https://raster.shields.io/badge/4-gray.png?style=for-the-badge'><a href='https://www.jetbrains.com/pycharm/download/'> <img src='https://raster.shields.io/badge/Download-PyCharm-c6c6c6.png?style=for-the-badge&logo=pycharm'></a>
 
 ## 4. Bot commands
+
+### 4.1. Command name
 ```
 Empty
 ```
