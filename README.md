@@ -1,11 +1,13 @@
 # Bot Documentation
 
 ## Table of  Contents
-<a href='#overview'>**1. Overview**</a><br>
-<a href='#installation-of-required-components'>**2. Installation of required components**</a><br>
-<a href='#choose-an-ide'>**3. Choose an IDE**</a><br>
-<a href='#how-to-get-discord-library'>**4. How to get discord**</a><br>
-<a href='#help'>**5. Help**</a>
+1. <a href='#overview'>Overview</a><br>
+  1.1. asdasd <br>
+  1.2. asdada
+2. <a href='#installation-of-required-components'>Installation of required components</a><br>
+3. <a href='#choose-an-ide'>Choose an IDE</a><br>
+4. <a href='#how-to-get-discord-library'>How to get discord</a><br>
+5. <a href='#help'>Help</a>
 
 ## Overview
 This repository contains all the code for the bot. <br>
