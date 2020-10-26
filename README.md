@@ -1,19 +1,19 @@
 # Bot Documentation
 
 ## Table of  Contents
-1. <a href='#1.-overview'>Overview</a><br>
-2. <a href='#license'>License</a>
-3. <a href='#installation-of-required-components'>Installation of required components</a><br>
-  3.1. <a href='#you-will-need'>You will need</a><br>
-  3.2. <a href='#how-to-get-discord-library'>How to get discord</a><br>
-  3.3. <a href='#choose-an-ide'>Choose an IDE</a>
-4. <a href='#bot-commands'>Bot commands</a>
-5. <a href='#help'>Help</a>
+1. <a href='#1-overview'>Overview</a><br>
+2. <a href='#2-license'>License</a>
+3. <a href='#3-installation-of-required-components'>Installation of required components</a><br>
+  3.1. <a href='#3-1-you-will-need'>You will need</a><br>
+  3.2. <a href='#3-2-how-to-get-discord-library'>How to get discord</a><br>
+  3.3. <a href='#3-3-choose-an-ide'>Choose an IDE</a>
+4. <a href='#4-bot-commands'>Bot commands</a>
+5. <a href='#5-help'>Help</a>
 
 ## 1. Overview
 This repository contains all the code for the bot. <br>
 
-## License
+## 2. License
 This project use **BSD-3-Clause License**.  
 
 | Permissions                         | Limitations         | Conditions                                       |
@@ -26,9 +26,9 @@ This project use **BSD-3-Clause License**.
 <a href='LICENSE'><img src='https://raster.shields.io/badge/Read-LICENSE-orange.png?style=for-the-badge'></a>
 
 
-## Installation of required components
+## 3. Installation of required components
 
-### You will need
+### 3.1. You will need
 - `Python 3.8.0` or greater. <a href='https://www.python.org/downloads/'><img src='https://raster.shields.io/badge/Download-Python-brightgreen.png'></a><br>
 
 - `discord.py 1.3.0` or greater. <a href='#how-to-get-discord-library'><img src='https://raster.shields.io/badge/How%20to%20get-discord.py-blue.png'></a><br>
@@ -36,7 +36,7 @@ This project use **BSD-3-Clause License**.
 - `IDE` <a href='#choose-an-ide'><img src='https://raster.shields.io/badge/Choose%20an-IDE-blue.png'></a>
 
 
-## How to get **discord** library
+## 3.2. How to get **discord** library
 You can get the library directly from PyPI: <br>
 ```
 python3 -m pip install -U discord.py
@@ -52,7 +52,7 @@ For a Debian-based system, the following command will get these dependencies: <b
 $ apt install libffi-dev libnacl-dev python3-dev
 ```
 
-## Choose an IDE
+## 3.3. Choose an IDE
 <img src='https://raster.shields.io/badge/1-gray.png?style=for-the-badge'> <a href='https://atom.io/'><img src='https://raster.shields.io/badge/Download-Atom-brightgreen.png?style=for-the-badge&logo=atom'></a>
 <br>
 
@@ -64,11 +64,11 @@ $ apt install libffi-dev libnacl-dev python3-dev
 
 <img src='https://raster.shields.io/badge/4-gray.png?style=for-the-badge'><a href='https://www.jetbrains.com/pycharm/download/'> <img src='https://raster.shields.io/badge/Download-PyCharm-c6c6c6.png?style=for-the-badge&logo=pycharm'></a>
 
-## Bot commands
+## 4. Bot commands
 ```
 Empty
 ```
-## Help
+## 5. Help
 For help and enquiries:
 <br>
 
