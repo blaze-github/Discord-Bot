@@ -1,17 +1,17 @@
 # Bot Documentation
 This repository contains all the code for the bot. <br>
 
-This project use BSD-3-Clause License.  <a href='LICENSE'><img src='https://raster.shields.io/badge/Read-LICENSE-orange.png?style=for-the-badge'></a>
+This project use BSD-3-Clause License.  <a href='LICENSE'><img src='https://raster.shields.io/badge/Read-LICENSE-orange.png'></a>
 
 
 ## Installation of required components
 
 ### You will need
-- `Python 3.8.0` or greater. <a href='https://www.python.org/downloads/'><img src='https://raster.shields.io/badge/Download-Python-brightgreen.png?style=for-the-badge'></a><br>
+- `Python 3.8.0` or greater. <a href='https://www.python.org/downloads/'><img src='https://raster.shields.io/badge/Download-Python-brightgreen.png'></a><br>
 
-- `discord.py 1.3.0` or greater. <a href='#how-to-get-discord-library'><img src='https://raster.shields.io/badge/How%20to%20get-discord.py-blue.png?style=for-the-badge'></a><br>
+- `discord.py 1.3.0` or greater. <a href='#how-to-get-discord-library'><img src='https://raster.shields.io/badge/How%20to%20get-discord.py-blue.png'></a><br>
 
-- `IDE` <a href='#choose-an-ide'><img src='https://raster.shields.io/badge/Choose%20-IDE-blue.png?style=for-the-badge'></a>
+- `IDE` <a href='#choose-an-ide'><img src='https://raster.shields.io/badge/Choose%20-IDE-blue.png'></a>
 
 ## Choose an IDE
 <img src='https://raster.shields.io/badge/1-gray.png?style=for-the-badge'> <a href='https://atom.io/'><img src='https://raster.shields.io/badge/Download-Atom-brightgreen.png?style=for-the-badge&logo=atom'></a>
@@ -44,13 +44,7 @@ $ apt install libffi-dev libnacl-dev python3-dev
 ## Help
 For help and enquiries:
 <br>
-<br>
-<img src='https://raster.shields.io/badge/1-gray.png?style=for-the-badge'>
-<a href='https://www.instagram.com/sfratescu00/'>
-<img src='https://raster.shields.io/badge/contact%20me%20on-instagram-cd486b.png?style=for-the-badge&logo=instagram'>
-</a>
 
-<img src='https://raster.shields.io/badge/2-gray.png?style=for-the-badge'>
-<a href='https://discord.com/users/385834838793388033'>
-<img src='https://raster.shields.io/badge/contact%20me%20on-discord-7289d9.png?style=for-the-badge&logo=discord'>
-</a>
+<img src='https://raster.shields.io/badge/1-gray.png?style=for-the-badge'><a href='https://www.instagram.com/sfratescu00/'> <img src='https://raster.shields.io/badge/contact%20me%20on-instagram-cd486b.png?style=for-the-badge&logo=instagram'></a>
+
+<img src='https://raster.shields.io/badge/2-gray.png?style=for-the-badge'><a href='https://discord.com/users/385834838793388033'> <img src='https://raster.shields.io/badge/contact%20me%20on-discord-7289d9.png?style=for-the-badge&logo=discord'></a>
