@@ -1,4 +1,13 @@
 # Bot Documentation
+
+## Table of  Contents
+<a href='#overview'>**1. Overview**</a><br>
+<a href='#installation-of-required-components'>**2. Installation of required components**</a><br>
+<a href='#choose-an-ide'>**3. Choose an IDE**</a><br>
+<a href='#how-to-get-discord-library'>**4. How to get discord**</a><br>
+<a href='#help'>**5. Help**</a>
+
+## Overview
 This repository contains all the code for the bot. <br>
 
 This project use BSD-3-Clause License.  <a href='LICENSE'><img src='https://raster.shields.io/badge/Read-LICENSE-orange.png'></a>
