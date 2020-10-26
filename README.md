@@ -11,7 +11,7 @@ This project use BSD-3-Clause License <a href='LICENSE'><img src='https://raster
 - `IDE` <a href='#choose-an-ide'><img src='https://raster.shields.io/badge/Choose%20-IDE-blue.png'></a>
 
 ## Choose an IDE
-<a href='https://atom.io/'><img src='https://raster.shields.io/badge/Download-Atom-brightgreen.png?style=for-the-badge&logo=appveyor'></a><br>
+<a href='https://atom.io/'><img src='https://raster.shields.io/badge/Download-Atom-brightgreen.png?style=for-the-badge&logo=atom'></a><br>
 <a href='https://www.sublimetext.com/3'><img src='https://raster.shields.io/badge/Download-Sublime%20Text-brightgreen.png?style=for-the-badge&logo=appveyor'></a><br>
 <a href='https://code.visualstudio.com/Download'><img src='https://raster.shields.io/badge/Download-Visual%20Studio%20Code-brightgreen.png?style=for-the-badge&logo=appveyor'></a><br>
 <a href='https://www.jetbrains.com/pycharm/download/'><img src='https://raster.shields.io/badge/Download-PyCharm-brightgreen.png?style=for-the-badge&logo=appveyor'></a>
