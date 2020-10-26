@@ -1,19 +1,16 @@
 # Bot Documentation
 
 ## Table of  Contents
-1. <a href='#overview'>Overview</a><br>
-
+1. <a href='#1.-overview'>Overview</a><br>
 2. <a href='#license'>License</a>
 3. <a href='#installation-of-required-components'>Installation of required components</a><br>
   3.1. <a href='#you-will-need'>You will need</a><br>
   3.2. <a href='#how-to-get-discord-library'>How to get discord</a><br>
   3.3. <a href='#choose-an-ide'>Choose an IDE</a>
-
 4. <a href='#bot-commands'>Bot commands</a>
-
 5. <a href='#help'>Help</a>
 
-## Overview
+## 1. Overview
 This repository contains all the code for the bot. <br>
 
 ## License
