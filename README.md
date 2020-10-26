@@ -4,9 +4,9 @@
 1. <a href='#1-overview'>Overview</a><br>
 2. <a href='#2-license'>License</a>
 3. <a href='#3-installation-of-required-components'>Installation of required components</a><br>
-  3.1. <a href='#3-1-you-will-need'>You will need</a><br>
-  3.2. <a href='#3-2-how-to-get-discord-library'>How to get discord</a><br>
-  3.3. <a href='#3-3-choose-an-ide'>Choose an IDE</a>
+  3.1. <a href='#31-you-will-need'>You will need</a><br>
+  3.2. <a href='#32-how-to-get-discord-library'>How to get discord</a><br>
+  3.3. <a href='#33-choose-an-ide'>Choose an IDE</a>
 4. <a href='#4-bot-commands'>Bot commands</a>
 5. <a href='#5-help'>Help</a>
 
@@ -36,7 +36,7 @@ This project use **BSD-3-Clause License**.
 - `IDE` <a href='#choose-an-ide'><img src='https://raster.shields.io/badge/Choose%20an-IDE-blue.png'></a>
 
 
-## 3.2. How to get **discord** library
+### 3.2. How to get **discord** library
 You can get the library directly from PyPI: <br>
 ```
 python3 -m pip install -U discord.py
@@ -52,7 +52,7 @@ For a Debian-based system, the following command will get these dependencies: <b
 $ apt install libffi-dev libnacl-dev python3-dev
 ```
 
-## 3.3. Choose an IDE
+### 3.3. Choose an IDE
 <img src='https://raster.shields.io/badge/1-gray.png?style=for-the-badge'> <a href='https://atom.io/'><img src='https://raster.shields.io/badge/Download-Atom-brightgreen.png?style=for-the-badge&logo=atom'></a>
 <br>
 
