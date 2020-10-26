@@ -12,7 +12,16 @@
 This repository contains all the code for the bot. <br>
 
 ## License
-This project use BSD-3-Clause License.  <a href='LICENSE'><img src='https://raster.shields.io/badge/Read-LICENSE-orange.png'></a>
+This project use **BSD-3-Clause License**.  
+
+| Permissions                         | Limitations         | Conditions                                       |
+| ----------------------------------- | ------------------- | ------------------------------------------------ |
+| :white_check_mark:  Commercial use  | :x:  Liability      | :information_source: License and copyright notice|
+| :white_check_mark:  Modification    | :x:  Warranty       |                                                  |
+| :white_check_mark:  Distribution    |                     |                                                  |
+| :white_check_mark:  Distribution    |                     |                                                  |
+
+<a href='LICENSE'><img src='https://raster.shields.io/badge/Read-LICENSE-orange.png?style=for-the-badge'></a>
 
 
 ## Installation of required components
