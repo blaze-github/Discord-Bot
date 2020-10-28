@@ -32,7 +32,7 @@ This project use **BSD-3-Clause License**.
 ### 3.1. You will need
 - `Python 3.8.0` or greater. <a href='https://www.python.org/downloads/'><img src='https://raster.shields.io/badge/Download-Python-brightgreen.png'></a><br>
 
-- `discord.py 1.3.0` or greater. <a href='#how-to-get-discord-library'><img src='https://raster.shields.io/badge/How%20to%20get-discord.py-blue.png'></a><br>
+- `discord.py 1.3.0` or greater. <a href='#32-how-to-get-discord-library'><img src='https://raster.shields.io/badge/How%20to%20get-discord.py-blue.png'></a><br>
 
 - `IDE` <a href='#33-choose-an-ide'><img src='https://raster.shields.io/badge/Choose%20an-IDE-blue.png'></a>
 
