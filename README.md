@@ -24,7 +24,7 @@ This project use **BSD-3-Clause License**.
 | :white_check_mark:  Distribution    |                     |                                                  |
 | :white_check_mark:  Distribution    |                     |                                                  |
 
-<a href='LICENSE'><img src='https://raster.shields.io/badge/|-Read%20license-slategray.png?style=for-the-badge'></a>
+<a href='LICENSE'><img src='https://raster.shields.io/badge/!-Read%20license-f6f8fa.png?style=for-the-badge'></a>
 
 
 ## 3. Installation of required components
