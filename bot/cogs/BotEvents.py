@@ -31,6 +31,30 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 """
-PREFIX = '?'
+import discord
+from discord.ext import commands
 
-TOKEN = 'NzY2NDE1Mzc1ODU2MzA0MTUw.X4jB8A.Ns0k-SV1SM0GwO_q1MZ_DQhaEdA'
+class CommandEvents(commands.Cog):
+    def __init__(self, bot):
+        self.bot = bot
+
+    @commands.Cog.listener()
+    async def on_ready(self):
+        print('---------------------')
+        print('Logged in as')
+        print(self.bot.user.name)
+        print(self.bot.user.id)
+        print('---------------------')
+
+    @commands.Cog.listener()
+    async def on_message(self, message):
+        if message.author == self.bot.user:
+            return
+        # await bot.process_command(message)
+
+    @commands.Cog.listener()
+    async def on_command_completion(self, ctx):
+        print('</> Command "{}" was invoked successfully by {}.'.format(ctx.command.name, ctx.message.author))
+
+def setup(bot):
+    bot.add_cog(CommandEvents(bot))

@@ -32,36 +32,20 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 """
 
-import discord                                                                  #  Import discord library
-from discord.ext import commands                                                #  From discord library import commands
+import discord
+from discord.ext import commands
+import os
 import config
-import token
 
 bot = discord.Client()
-bot = commands.Bot(command_prefix=config.PREFIX)                                #  Import bot prefix from config file
+bot = commands.Bot(command_prefix=config.PREFIX)
 
-@bot.event
-async def on_ready():
-    print('Logged in as')                                                       #  If bot is ready print this message in console
-    print(bot.user.name)                                                        #  Print in console bot name
-    print(bot.user.id)                                                          #  Print in console bot id
+bot.remove_command('help')
 
-@bot.event
-async def on_message(message):
-    if message.author == bot.user:                                              #  If user is bot
-        return                                                                  #  do nothing
 
-    await bot.process_command(message)                                          #  Process commands
+for filename in os.listdir('./cogs'):
+    if filename.endswith('.py'):
+        bot.load_extension('cogs.{}'.format(filename[:-3]))
+        print('cogs/{} is ready'.format(filename[:-3]))
 
-@bot.command()
-async def timer(ctx):
-    count = 320                                                                 #  Time in seconds
-    countdown = await ctx.message.channel.send('**{}**'.format(count))          #  Send first message to discord channel
-    for i in range(count, -1, -1):
-        await asyncio.sleep(1)                                                  #  Wait 1 second
-        await countdown.edit(content='**{}**'.format(i))                        #  Change message content
-        if i == 0:
-            await countdown.edit(content='**Time out**')                        #  Change message content
-
-bot.load_extension('cogs.CommandEvents')
-bot.run(config.TOKEN)                                                           #  Run bot
+bot.run(config.TOKEN)

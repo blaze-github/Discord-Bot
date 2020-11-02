@@ -31,6 +31,23 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 """
-PREFIX = '?'
+import discord
+from discord.ext import commands
+import asyncio
 
-TOKEN = 'NzY2NDE1Mzc1ODU2MzA0MTUw.X4jB8A.Ns0k-SV1SM0GwO_q1MZ_DQhaEdA'
+class TestCommands(commands.Cog):
+    def __init__(self, bot):
+        self.bot = bot
+
+    @commands.command()
+    async def timer(self,ctx):
+        count = 320
+        countdown = await ctx.message.channel.send('**{}**'.format(count))
+        for i in range(count, -1, -1):
+            await asyncio.sleep(1)
+            await countdown.edit(content='**{}**'.format(i))
+            if i == 0:
+                await countdown.edit(content='**Time out**')
+
+def setup(bot):
+    bot.add_cog(TestCommands(bot))
