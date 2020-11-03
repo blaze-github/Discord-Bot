@@ -31,6 +31,21 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 """
-PREFIX = '?'
+import discord
+from discord.ext import commands
+import asyncio
 
-TOKEN = 'NzY2NDE1Mzc1ODU2MzA0MTUw.X4jB8A.Ns0k-SV1SM0GwO_q1MZ_DQhaEdA'
+class OwnerCommands(commands.Cog):
+    def __init__(self, bot):
+        self.bot = bot
+
+    @commands.is_owner()
+    @commands.group(name = 'bot', invoke_without_command = True)
+    async def OwnerCommandsHelp(self, ctx):
+        owner_embed = discord.Embed(color=discord.Color(0xe74c3c))
+        embed.title = 'Comming soon'
+        await message.channel.send(embed=embed)
+
+
+def setup(bot):
+    bot.add_cog(OwnerCommands(bot))
