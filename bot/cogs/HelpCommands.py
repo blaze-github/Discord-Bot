@@ -40,17 +40,7 @@ class HelpCommands(commands.Cog):
 
     @commands.group(name = 'help', invoke_without_command = True)
     async def HelpCommand(self, ctx):
-
-        commands_list = {'Help':'Help command',
-                         'Vote':'Vote command',
-                         'Next command':'Random command'}
-    
-        h_embed = discord.Embed(color=discord.Color(0xe74c3c))
-        h_embed.title = '**Bot / Help **'
-        h_embed.set_thumbnail(url=self.bot.user.avatar_url)
-        for key, value in commands_list.items():
-                h_embed.add_field(name=key, value=value, inline=False)
-        await ctx.message.channel.send(embed=h_embed)
+        await ctx.channel.send('Main help command')
 
     @HelpCommand.command(name = 'vote')
     async def vote_help_subcommand(self,ctx):
