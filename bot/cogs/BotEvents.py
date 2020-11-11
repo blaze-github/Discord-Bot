@@ -46,6 +46,10 @@ class CommandEvents(commands.Cog):
         print(self.bot.user.id)
         print('---------------------')
 
+
+        activity = discord.Activity(type = discord.ActivityType.watching, name = '?help')
+        await self.bot.change_presence(status=discord.Status.online, activity=activity)
+
     @commands.Cog.listener()
     async def on_message(self, message):
         if message.author == self.bot.user:

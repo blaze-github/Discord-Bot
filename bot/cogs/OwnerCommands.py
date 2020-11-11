@@ -33,7 +33,6 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 """
 import discord
 from discord.ext import commands
-import asyncio
 
 class OwnerCommands(commands.Cog):
     def __init__(self, bot):
@@ -41,10 +40,15 @@ class OwnerCommands(commands.Cog):
 
     @commands.is_owner()
     @commands.group(name = 'bot', invoke_without_command = True)
-    async def OwnerCommandsHelp(self, ctx):
+    async def BotConfiguration(self,ctx):
+        await ctx.channel.send('Bot configuration command, type `?bot help` for more configurations!')
+
+    @BotConfiguration.command(name = 'help')
+    async def BotConfigurationHelp(self, ctx):
         owner_embed = discord.Embed(color=discord.Color(0xe74c3c))
-        embed.title = 'Comming soon'
-        await message.channel.send(embed=embed)
+        owner_embed.title = 'Bot configuration commands'
+        owner_embed.description = 'Only for channel owner or moderators'
+        await ctx.channel.send(embed=owner_embed)
 
 
 def setup(bot):

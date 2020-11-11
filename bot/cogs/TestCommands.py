@@ -39,6 +39,7 @@ class TestCommands(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
+
     @commands.command()
     async def timer(self,ctx):
         count = 320

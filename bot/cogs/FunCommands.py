@@ -33,7 +33,6 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 """
 import discord
 from discord.ext import commands
-import asyncio
 
 class FunCommands(commands.Cog):
     def __init__(self, bot):

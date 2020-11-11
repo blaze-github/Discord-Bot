@@ -14,6 +14,7 @@
 ## 1. Overview
 This repository contains all the code for the bot. <br>
 
+![GitHub All Releases](https://img.shields.io/github/downloads/blaze-github/Discord-Bot/total?style=social)
 ## 2. License
 This project use **BSD-3-Clause License**.  
 
@@ -24,16 +25,16 @@ This project use **BSD-3-Clause License**.
 | :white_check_mark:  Distribution    |                     |                                                  |
 | :white_check_mark:  Distribution    |                     |                                                  |
 
-<a href='LICENSE'><img src='https://raster.shields.io/badge/!-Read%20license-16c60c.png?style=for-the-badge'></a>
+<a href='LICENSE'><img src='https://raster.shields.io/badge/!-Read%20license-16c60c.svg?style=for-the-badge'></a>
 
 ## 3. Installation of required components
 
 ### 3.1. You will need
-- `Python 3.8.0` or greater. <a href='https://www.python.org/downloads/'><img src='https://raster.shields.io/badge/Download-Python-brightgreen.png'></a><br>
+- `Python 3.8.0` or greater. <a href='https://www.python.org/downloads/'><img src='https://raster.shields.io/badge/Download-Python-brightgreen.svg'></a><br>
 
-- `discord.py 1.3.0` or greater. <a href='#32-how-to-get-discord-library'><img src='https://raster.shields.io/badge/How%20to%20get-discord.py-blue.png'></a><br>
+- `discord.py 1.3.0` or greater. <a href='#32-how-to-get-discord-library'><img src='https://raster.shields.io/badge/How%20to%20get-discord.py-blue.svg'></a><br>
 
-- `IDE` <a href='#33-choose-an-ide'><img src='https://raster.shields.io/badge/Choose%20an-IDE-blue.png'></a>
+- `IDE` <a href='#33-choose-an-ide'><img src='https://raster.shields.io/badge/Choose%20an-IDE-blue.svg'></a>
 
 
 ### 3.2. How to get **discord** library
@@ -53,16 +54,21 @@ $ apt install libffi-dev libnacl-dev python3-dev
 ```
 
 ### 3.3. Choose an IDE
-<img src='https://raster.shields.io/badge/1-gray.png?style=for-the-badge'> <a href='https://atom.io/'><img src='https://raster.shields.io/badge/Download-Atom-brightgreen.png?style=for-the-badge&logo=atom'></a>
+<img src='https://raster.shields.io/badge/1-gray.svg?style=for-the-badge'> <a href='https://atom.io/'><img src='https://raster.shields.io/badge/Download-Atom-brightgreen.svg?style=for-the-badge&logo=atom'></a>
 <br>
 
-<img src='https://raster.shields.io/badge/2-gray.png?style=for-the-badge'><a href='https://www.sublimetext.com/3'> <img src='https://raster.shields.io/badge/Download-Sublime%20Text-FF9800.png?style=for-the-badge&logo=sublime-text'></a>
+<img src='https://raster.shields.io/badge/2-gray.svg?style=for-the-badge'><a href='https://www.sublimetext.com/3'> <img src='https://raster.shields.io/badge/Download-Sublime%20Text-FF9800.svg?style=for-the-badge&logo=sublime-text'></a>
 <br>
 
-<img src='https://raster.shields.io/badge/3-gray.png?style=for-the-badge'><a href='https://code.visualstudio.com/Download'> <img src='https://raster.shields.io/badge/Download-Visual%20Studio%20Code-0078d7.png?style=for-the-badge&logo=visual-studio-code'></a>
+<img src='https://raster.shields.io/badge/3-gray.svg?style=for-the-badge'><a href='https://code.visualstudio.com/Download'> <img src='https://raster.shields.io/badge/Download-Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code'></a>
 <br>
 
-<img src='https://raster.shields.io/badge/4-gray.png?style=for-the-badge'><a href='https://www.jetbrains.com/pycharm/download/'> <img src='https://raster.shields.io/badge/Download-PyCharm-c6c6c6.png?style=for-the-badge&logo=pycharm'></a>
+<img src='https://raster.shields.io/badge/4-gray.svg?style=for-the-badge'><a href='https://www.jetbrains.com/pycharm/download/'> <img src='https://raster.shields.io/badge/Download-PyCharm-c6c6c6.svg?style=for-the-badge&logo=pycharm'></a>
+<br>
+
+<img src='https://raster.shields.io/badge/5-gray.svg?style=for-the-badge'><a href='https://jupyter.org/install'> <img src='https://raster.shields.io/badge/Download-Jupyter-orange.svg?style=for-the-badge&logo=jupyter'></a>
+
+
 
 ## 4. Bot commands
 
@@ -74,6 +80,6 @@ Empty
 For help and enquiries:
 <br>
 
-<img src='https://raster.shields.io/badge/1-gray.png?style=for-the-badge'><a href='https://www.instagram.com/sfratescu00/'> <img src='https://raster.shields.io/badge/contact%20me%20on-instagram-cd486b.png?style=for-the-badge&logo=instagram'></a>
+<img src='https://raster.shields.io/badge/1-gray.svg?style=for-the-badge'><a href='https://www.instagram.com/sfratescu00/'> <img src='https://raster.shields.io/badge/contact%20me%20on-instagram-cd486b.svg?style=for-the-badge&logo=instagram'></a>
 
-<img src='https://raster.shields.io/badge/2-gray.png?style=for-the-badge'><a href='https://discord.com/users/385834838793388033'> <img src='https://raster.shields.io/badge/contact%20me%20on-discord-7289d9.png?style=for-the-badge&logo=discord'></a>
+<img src='https://raster.shields.io/badge/2-gray.svg?style=for-the-badge'><a href='https://discord.com/users/385834838793388033'> <img src='https://raster.shields.io/badge/contact%20me%20on-discord-7289d9.svg?style=for-the-badge&logo=discord'></a>
