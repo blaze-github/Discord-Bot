@@ -33,22 +33,29 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 """
 import discord
 from discord.ext import commands
+import autopep8
+
 
 class OwnerCommands(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
     @commands.is_owner()
-    @commands.group(name = 'bot', invoke_without_command = True)
-    async def BotConfiguration(self,ctx):
+    @commands.group(name='bot', invoke_without_command=True)
+    async def BotConfiguration(self, ctx):
         await ctx.channel.send('Bot configuration command, type `?bot help` for more configurations!')
 
-    @BotConfiguration.command(name = 'help')
+    @BotConfiguration.command(name='help')
     async def BotConfigurationHelp(self, ctx):
         owner_embed = discord.Embed(color=discord.Color(0xe74c3c))
         owner_embed.title = 'Bot configuration commands'
         owner_embed.description = 'Only for channel owner or moderators'
         await ctx.channel.send(embed=owner_embed)
+
+    @BotConfiguration.command(name='changename', aliases=['name'])
+    async def BotChangeName(self, ctx, name: str):
+        await self.bot.edit_profile(username=name)
+        await ctx.channel.send('Bot name was successfully changed to {} by {}'.format(name, ctx.message.author))
 
 
 def setup(bot):

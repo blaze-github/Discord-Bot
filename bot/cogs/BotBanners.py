@@ -37,65 +37,79 @@ from PIL import Image, ImageDraw, ImageFont
 import requests
 from io import BytesIO
 import config
+import random
+import multiprocessing
+import autopep8
+
 
 class BotBanners(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
-        # banner_map = [[1] * 12 for n in range(3)]
-        #
-        #
+        BotBanners.generate_main_banner(self)
+
+    @commands.Cog.listener()
+    async def on_ready(self):
+        with open('users.txt', 'w') as f:
+            for guild in self.bot.guilds:
+                async for member in guild.fetch_members(limit=None):
+                    print(member.avatar_url, file=f)
+
+    def generate_main_banner(self):
+        url = []
+        with open('users.txt', 'r') as f:
+            for line in f:
+                url.append(line)
+                print(random.choice(url))
+
+        banner_map = [[1] * 12 for n in range(4)]
+
         banner_width = 600
         banner_height = 150
         icon_width = 50
         icon_height = 50
-        #
-        # x_pos, y_pos = 0, 0
-        #
-        # banner = Image.new('RGB', (banner_width, banner_height), (0,0,0))
-        # text_str = config.SERVER_NAME
-        # # url = 'https://sun9-21.userapi.com/HrNx-ZHuLZG36DUuegsvX6XyTfD-4HfbPsoihw/TlGdyw2vQ4o.jpg'
-        # # response = requests.get(url)
-        # # icon = Image.open(BytesIO(response.content))
-        # icon = Image.open('banners/default.png')
-        # result = Image.new('RGB', (banner_width, banner_height), (0,0,0))
-        #
-        # result.paste(banner, (0,0))
-        #
-        # for row in banner_map:
-        #     for col in row:
-        #         result.paste(icon,(x_pos,y_pos))
-        #         x_pos = x_pos + icon_width
-        #     y_pos = y_pos + icon_height
-        #     x_pos = 0
-        #
-        # result.save('banners/{}.png'.format(text_str))
 
+        x_pos, y_pos = 0, 0
 
-
-        banner = Image.open('banners/default1.png')
-        # server_logo = selfbot.guild.icon_url
-        # banner.paste(server_logo)
-
-
-        canvas = ImageDraw.Draw(banner)
+        banner = Image.new('RGB', (banner_width, banner_height), (0, 0, 0))
         text_str = config.SERVER_NAME
+        # icon = Image.open('banners/default.png')
+        result = Image.new('RGB', (banner_width, banner_height), (0, 0, 0))
+        result.paste(banner, (0, 0))
+        for row in banner_map:
+            for col in row:
+                for image in row:
+                    image = 'https://play-lh.googleusercontent.com/b0p_qGMKAcQoT0YWHzhTsol0j1rD6AMdgfvMKUFmR8IDXnYfNeldH7dfO4BoUqID2k0'
+                    icon = Image.open(BytesIO(requests.get(image).content))
+                    icon = icon.resize((icon_width, icon_height), Image.ANTIALIAS)
+                result.paste(icon, (x_pos, y_pos))
+                x_pos = x_pos + icon_width
+            y_pos = y_pos + icon_height
+            x_pos = 0
+
+        canvas = ImageDraw.Draw(result)
         font = ImageFont.truetype('font/Lato-Bold.ttf', size=48)
         text_width, text_height = canvas.textsize(text_str, font=font)
 
         text_x_pos = int((banner_width - text_width) / 2)
         text_y_pos = int((banner_height - text_height) / 2)
 
-        canvas.text((text_x_pos + 5,text_y_pos + 5),text_str, font = font, fill=(0, 0, 0))
-        canvas.text((text_x_pos,text_y_pos),text_str, font = font, fill=(225, 255, 255))
+        canvas.text((text_x_pos + 5, text_y_pos + 5), text_str, font=font, fill=(0, 0, 0))
+        canvas.text((text_x_pos, text_y_pos), text_str, font=font, fill=(225, 255, 255))
 
-        banner.save('banners/{}.png'.format(text_str))
-
-
-    @commands.command()
-    async def DAEB(slef, ctx):
-        await ctx.channel.send(file = discord.File('default_server_banner.png'))
-
+        result.save('banners/{}.png'.format(text_str))
 
 def setup(bot):
     bot.add_cog(BotBanners(bot))
+
+
+
+# TO DO:
+
+# - Fix bug
+#     cogs.BotBanners' raised an error:
+#     UnidentifiedImageError:
+#     cannot identify image file <_io.BytesIO object at 0x7f57d497c540>
+
+#  - Migrate configs
+#     Migrate configs from config.py to dotenv (.env)

@@ -36,9 +36,9 @@ from discord.ext import commands
 import asyncio
 
 class TestCommands(commands.Cog):
-    def __init__(self, bot):
-        self.bot = bot
-
+    def __init__(self, client):
+        # self.bot = bot
+        self.client = client
 
     @commands.command()
     async def timer(self,ctx):

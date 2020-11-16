@@ -1,5 +1,4 @@
 """
-
 BSD 3-Clause License
 
 Copyright (c) 2020, blaze-github
@@ -42,31 +41,49 @@ class HelpCommands(commands.Cog):
 
     global help_commands_list
 
-    help_commands_list = {'Bot'   :    '?bot help',
-                          'Vote'   :   '?help vote',
+    help_commands_list = {'Bot'    :   '?bot help',
                           'Attack' :   '?help attack'}
+
+
 
     @commands.group(name = 'help', invoke_without_command = True)
     async def HelpCommand(self, ctx):
-        file = 'banners/out.png'
 
-        main_help_command_embed = discord.Embed(color=discord.Color(0xe74c3c))
+        main_help_command_embed = discord.Embed(
+                                    color = discord.Color(0xe74c3c))
 
-        main_help_command_embed.set_author(name='{} | Help'.format(self.bot.user.name), url = '', icon_url=self.bot.user.avatar_url)
-        # main_help_command_embed.set_thumbnail(url=ctx.guild.icon_url)
+        main_help_command_embed.set_author(
+                                    name='{} | Help'.format(self.bot.user.name),
+                                    url = '', icon_url=self.bot.user.avatar_url)
+
+        # main_help_command_embed.set_thumbnail(
+        #                             url=ctx.guild.icon_url)
 
         # main_help_command_embed.title = '**Bot help**'
         # main_help_command_embed.description = 'Bot help description'
 
         for command, description in help_commands_list.items():
-            main_help_command_embed.add_field(name = '**{}**'.format(command), value = '`{}`'.format(description), inline = True)
+            main_help_command_embed.add_field(
+                                        name = '**{}**'.format(command),
+                                        value = '`{}`'.format(description),
+                                        inline = True)
 
-        default_server_banner_url = discord.File('banners/{}.png'.format(config.SERVER_NAME), filename = '{}.png'.format(config.SERVER_NAME))
+        default_server_banner_url = discord.File(
+                                        'banners/{}.png'.format(config.SERVER_NAME),
+                                        filename = '{}.png'.format(config.SERVER_NAME))
 
-        main_help_command_embed.set_image(url = 'attachment://{}.png'.format(config.SERVER_NAME))
-        main_help_command_embed.set_footer(icon_url=ctx.message.author.avatar_url ,text=' This message was invoked successfully by {}'.format(ctx.message.author))
+        main_help_command_embed.set_image(
+                                    url = 'attachment://{}.png'.format(config.SERVER_NAME))
 
-        await ctx.channel.send(file = default_server_banner_url, embed = main_help_command_embed)
+        main_help_command_embed.set_footer(
+                                    icon_url=ctx.message.author.avatar_url,
+                                    text=' This message was invoked successfully by {}'.format(ctx.message.author))
+
+        await ctx.channel.send(
+                            file = default_server_banner_url,
+                            embed = main_help_command_embed)
+
+
 
     @HelpCommand.command(name = 'vote')
     async def vote_help_subcommand(self,ctx):
