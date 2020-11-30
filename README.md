@@ -70,6 +70,9 @@ $ apt install libffi-dev libnacl-dev python3-dev
 <br>
 
 <img src='https://raster.shields.io/badge/5-gray.svg?style=for-the-badge'><a href='https://jupyter.org/install'> <img src='https://raster.shields.io/badge/Download-Jupyter-orange.svg?style=for-the-badge&logo=jupyter'></a>
+<br>
+
+<img src='https://raster.shields.io/badge/5-gray.svg?style=for-the-badge'><a href='https://jupyter.org/install'> <img src='https://raster.shields.io/badge/Download-Jupyter-orange.svg?style=for-the-badge&logo=spyder-ide'></a>
 
 
 
