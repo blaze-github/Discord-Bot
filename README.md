@@ -1,3 +1,4 @@
+<img src="" alt="Bot Logo" width=64 height=64>
 <h1 align="center" >Soulless Bot</h1>
 <p align="center">Bot Documentation</p>
 
