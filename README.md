@@ -1,4 +1,4 @@
-<center># Bot Documentation</center>
+<center>Bot Documentation</center>
 
 ## Table of  Contents
 1. <a href='#1-overview'>Overview</a><br>
