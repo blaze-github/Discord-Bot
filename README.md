@@ -1,7 +1,7 @@
 <p align="center"><img src="bot-logo.png" alt="Bot Logo" width=256 height=256></p>
 <h1 align="center" >Soulless Bot</h1>
 <p align="center">Bot Documentation</p>
-<p align="center"><a href="#"><img src='https://raster.shields.io/badge/%20-Project%20is%20temporarily%20paused-red.svg?style=for-the-badge'></a>
+<p align="center"><a href="%20"><img src='https://raster.shields.io/badge/%20-Project%20is%20temporarily%20paused-red.svg?style=for-the-badge'></a>
   
 ## Table of  Contents
 1. <a href='#1-overview'>Overview</a><br>
