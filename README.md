@@ -1,4 +1,4 @@
-<h1 align="center">Soulless Bot</h1>
+<p align="center" style="font-size:36px;">Soulless Bot</p>
 <p align="center">Bot Documentation</p>
 
 ## Table of  Contents
