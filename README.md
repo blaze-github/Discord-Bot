@@ -1,5 +1,5 @@
-<h2 align="center">Soulless Bot</h2>
-
+<h1 align="center">Soulless Bot</h1>
+<p align="center">Bot Documentation</p>
 ## Table of  Contents
 1. <a href='#1-overview'>Overview</a><br>
 2. <a href='#2-license'>License</a>
