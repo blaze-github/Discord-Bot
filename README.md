@@ -1,5 +1,5 @@
 <p align="center"><img src="bot-logo.png" alt="Bot Logo" width=256 height=256></p>
-<h1 align="center">Soulless Bot</h1>
+<h3 align="center">Soulless Bot</h3>
 <p align="center">Bot Documentation</p>
 <p align="center"><a href="#"><img src='https://raster.shields.io/badge/%20-Project%20is%20temporarily%20paused-red.svg?style=for-the-badge'></a>
   
@@ -10,9 +10,13 @@
   3.1. <a href='#31-you-will-need'>You will need</a><br>
   3.2. <a href='#32-how-to-get-discord-library'>How to get discord</a><br>
   3.3. <a href='#33-choose-an-ide'>Choose an IDE</a>
-4. <a href='#4-bot-commands'>Bot commands</a><br>
-  4.1. <a href='#41-command-name'>Command name</a>
-5. <a href='#5-help'>Help</a>
+4. <a href='#4-bot-commands'>Bot events</a><br>
+  4.1. <a href='#41_on_ready()'>On_ready()</a>
+  4.2. <a href='#42-com'>On_message()</a>
+  4.3. <a href='#43-command-name'>On_command_completion()</a>
+5. <a href='#5-bot-commands'>Bot commands</a><br>
+  5.1. <a href='#51-command-name'>Command name</a>
+6. <a href='#5-help'>Help</a>
 
 ## 1. Overview
 This repository contains all the code for the bot. <br>
@@ -74,15 +78,40 @@ $ apt install libffi-dev libnacl-dev python3-dev
 
 <img src='https://raster.shields.io/badge/5-gray.svg?style=for-the-badge'><a href='https://jupyter.org/install'> <img src='https://raster.shields.io/badge/Download-Jupyter-orange.svg?style=for-the-badge&logo=spyder-ide'></a>
 
+## 4. Bot events
 
+### 4.1. On_ready()
+```python
+1. Print in console bot name and bot id.
 
-## 4. Bot commands
+   print('---------------------')
+   print('Logged in as')
+   print(self.bot.user.name)
+   print(self.bot.user.id)
+   print('---------------------')
 
-### 4.1. Command name
+2. Set bot activity.
+    
+    activity = discord.Activity(type = discord.ActivityType.watching, name = '?help')
+    await self.bot.change_presence(status=discord.Status.online, activity=activity)
+
+```
+### 4.2. On_message()
+```
+
+```
+### 4.3. On_command_completion()
+```
+
+```
+
+## 5. Bot commands
+
+### 5.1. Owner commands
 ```
 Empty
 ```
-## 5. Help
+## 6. Help
 For help and enquiries:
 <br>
 
