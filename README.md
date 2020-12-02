@@ -21,7 +21,7 @@
 ## 1. Overview
 ### What is Soulles bot?
 
-Soulles bot is a fun free project for everyone and always will be. If you like this project, you can leave [here](https://github.com/blaze-github/Discord-Bot/issues/new?assignees=&labels=&template=project-ideas.md&title=) an idea that will possibly be realized in the next update, but if you found any mistake in my code or you can make it better you can contact me in [Discord](https://discord.gg/tkedmvqrhf) or leave a request [here](https://github.com/blaze-github/Discord-Bot/issues/new?assignees=&labels=&template=mistakes-or-errors.md&title=).
+Soulles bot is a fun free project for everyone and always will be. If you like this project, you can leave [here](https://github.com/blaze-github/Discord-Bot/issues/new?assignees=&labels=&template=project-ideas.md&title=) an idea that will possibly be realized in the next update, but if you found any mistake in my code or you can make it better you can contact me in [Discord](https://discord.gg/zsFS4v5zvf) or leave a request [here](https://github.com/blaze-github/Discord-Bot/issues/new?assignees=&labels=&template=mistakes-or-errors.md&title=).
 
 ![GitHub All Releases](https://img.shields.io/github/downloads/blaze-github/Discord-Bot/total?style=social)
 ## 2. License
@@ -121,4 +121,4 @@ For help and enquiries:
 
 <img src='https://raster.shields.io/badge/1-gray.svg?style=for-the-badge'><a href='https://www.instagram.com/sfratescu00/'> <img src='https://raster.shields.io/badge/contact%20me%20on-instagram-cd486b.svg?style=for-the-badge&logo=instagram'></a>
 
-<img src='https://raster.shields.io/badge/2-gray.svg?style=for-the-badge'><a href='https://discord.gg/tkedmvqrhf'> <img src='https://raster.shields.io/badge/contact%20me%20on-discord-7289d9.svg?style=for-the-badge&logo=discord'></a>
+<img src='https://raster.shields.io/badge/2-gray.svg?style=for-the-badge'><a href='https://discord.gg/zsFS4v5zvf'> <img src='https://raster.shields.io/badge/contact%20me%20on-discord-7289d9.svg?style=for-the-badge&logo=discord'></a>
