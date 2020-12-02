@@ -10,16 +10,18 @@
   3.1. <a href='#31-you-will-need'>You will need</a><br>
   3.2. <a href='#32-how-to-get-discord-library'>How to get discord</a><br>
   3.3. <a href='#33-choose-an-ide'>Choose an IDE</a>
-4. <a href='#4-bot-commands'>Bot events</a><br>
-  4.1. <a href='#41_on_ready()'>On_ready()</a>
-  4.2. <a href='#42-com'>On_message()</a>
-  4.3. <a href='#43-command-name'>On_command_completion()</a>
+4. <a href='#4-bot-events'>Bot events</a><br>
+  4.1. <a href='#41-on_ready'>On_ready()</a><br>
+  4.2. <a href='#42-on_message'>On_message()</a><br>
+  4.3. <a href='#43-on_command_completion'>On_command_completion()</a>
 5. <a href='#5-bot-commands'>Bot commands</a><br>
-  5.1. <a href='#51-command-name'>Command name</a>
-6. <a href='#5-help'>Help</a>
+  5.1. <a href='#51-owner-commands'>Owner commands</a>
+6. <a href='#6-help'>Help</a>
 
 ## 1. Overview
-This repository contains all the code for the bot. <br>
+### What is Soulles bot?
+
+Soulles bot is a fun free project for everyone and always will be. If you like this project, you can leave [here](https://github.com/blaze-github/Discord-Bot/issues/new?assignees=&labels=&template=project-ideas.md&title=) an idea that will possibly be realized in the next update, but if you found any mistake in my code or you can make it better you can contact me in [Discord](https://discord.com/users/385834838793388033) or leave a request [here](https://github.com/blaze-github/Discord-Bot/issues/new?assignees=&labels=&template=mistakes-or-errors.md&title=).
 
 ![GitHub All Releases](https://img.shields.io/github/downloads/blaze-github/Discord-Bot/total?style=social)
 ## 2. License
@@ -41,7 +43,7 @@ This project use **BSD-3-Clause License**.
 
 - `discord.py 1.3.0` or greater. <a href='#32-how-to-get-discord-library'><img src='https://raster.shields.io/badge/How%20to%20get-discord.py-blue.svg'></a><br>
 
-- `IDE` <a href='#33-choose-an-ide'><img src='https://raster.shields.io/badge/Choose%20an-IDE-blue.svg'></a>
+- `IDE (Integrated development environment)` <a href='#33-choose-an-ide'><img src='https://raster.shields.io/badge/Choose%20an-IDE-blue.svg'></a>
 
 
 ### 3.2. How to get **discord** library
@@ -76,33 +78,35 @@ $ apt install libffi-dev libnacl-dev python3-dev
 <img src='https://raster.shields.io/badge/5-gray.svg?style=for-the-badge'><a href='https://jupyter.org/install'> <img src='https://raster.shields.io/badge/Download-Jupyter-orange.svg?style=for-the-badge&logo=jupyter'></a>
 <br>
 
-<img src='https://raster.shields.io/badge/5-gray.svg?style=for-the-badge'><a href='https://jupyter.org/install'> <img src='https://raster.shields.io/badge/Download-Jupyter-orange.svg?style=for-the-badge&logo=spyder-ide'></a>
+<img src='https://raster.shields.io/badge/6-gray.svg?style=for-the-badge'><a href='https://www.spyder-ide.org/#section-download'> <img src='https://raster.shields.io/badge/Download-Spyder-d50000.svg?style=for-the-badge&logo=spyder-ide'></a>
 
 ## 4. Bot events
 
 ### 4.1. On_ready()
+<b>1.</b> Print in console bot name and bot id.
 ```python
-1. Print in console bot name and bot id.
-
-   print('---------------------')
-   print('Logged in as')
-   print(self.bot.user.name)
-   print(self.bot.user.id)
-   print('---------------------')
-
-2. Set bot activity.
-    
-    activity = discord.Activity(type = discord.ActivityType.watching, name = '?help')
-    await self.bot.change_presence(status=discord.Status.online, activity=activity)
+print('---------------------')
+print('Logged in as')
+print(self.bot.user.name)
+print(self.bot.user.id)
+print('---------------------')
+```
+<b>2.</b> Set bot activity.
+```python    
+activity = discord.Activity(type = discord.ActivityType.watching, name = '?help')
+await self.bot.change_presence(status=discord.Status.online, activity=activity)
 
 ```
 ### 4.2. On_message()
-```
-
+Check if user is bot.
+```python
+if message.author == self.bot.user:
+            return
 ```
 ### 4.3. On_command_completion()
-```
-
+Print message in console when the command is successful invoked
+```python
+print('</> Command "{}" was invoked successfully by {}.'.format(ctx.command.name, ctx.message.author))
 ```
 
 ## 5. Bot commands
