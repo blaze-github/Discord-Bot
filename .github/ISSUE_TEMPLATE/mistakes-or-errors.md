@@ -7,6 +7,6 @@ assignees: ''
 
 ---
 
-**If u found a bug or can make my code better, you can describe it here**
+**If you found a bug or can make my code better, you can describe it here**
 
-**Thank you for your help**
+**Thanks for your help**
