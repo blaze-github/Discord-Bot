@@ -120,4 +120,4 @@ Empty
 ## 6. Help
 For help and enquiries:
 
-<a href="https://discord.gg/AkKsMRx23Q" targer="_blank">![Discord Banner 2](https://discordapp.com/api/guilds/783712975197831218/widget.png?style=banner2)</a>
+<a target="_blank" rel="noopener noreferrer" href="https://discord.gg/AkKsMRx23Q">![Discord Banner 2](https://discordapp.com/api/guilds/783712975197831218/widget.png?style=banner2)</a>
