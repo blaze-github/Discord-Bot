@@ -119,8 +119,5 @@ Empty
 ```
 ## 6. Help
 For help and enquiries:
-<br>
 
-<img src='https://raster.shields.io/badge/1-gray.svg?style=for-the-badge'><a href='https://www.instagram.com/sfratescu00/'> <img src='https://raster.shields.io/badge/contact%20me%20on-instagram-cd486b.svg?style=for-the-badge&logo=instagram'></a>
-
-<img src='https://raster.shields.io/badge/2-gray.svg?style=for-the-badge'><a href='https://discord.gg/zsFS4v5zvf'> <img src='https://raster.shields.io/badge/contact%20me%20on-discord-7289d9.svg?style=for-the-badge&logo=discord'></a>
+![Discord Banner 2](https://discordapp.com/api/guilds/783712975197831218/widget.png?style=banner2)
