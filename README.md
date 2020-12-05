@@ -23,6 +23,8 @@
 
 Soulles bot is a fun free project for everyone and always will be. If you like this project, you can leave [here](https://github.com/blaze-github/Discord-Bot/issues/new?assignees=&labels=&template=project-ideas.md&title=) an idea that will possibly be realized in the next update, but if you found any mistake in my code or you can make it better you can contact me in [Discord](https://discord.gg/zsFS4v5zvf) or leave a request [here](https://github.com/blaze-github/Discord-Bot/issues/new?assignees=&labels=&template=mistakes-or-errors.md&title=).
 
+[![Discord Bots](https://top.gg/api/widget/status/766415375856304150.svg)](https://top.gg/bot/766415375856304150)
+
 ![GitHub All Releases](https://img.shields.io/github/downloads/blaze-github/Discord-Bot/total?style=social)
 ## 2. License
 This project use **BSD-3-Clause License**.  
