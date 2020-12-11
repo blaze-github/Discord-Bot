@@ -50,7 +50,7 @@ This project use **BSD-3-Clause License**.
 
 ### 3.2. How to get **discord** library
 You can get the library directly from PyPI:
-<button style='border:none;' onclick='copyText.select(python3 -m pip install -U discord.py);'><img src='resources/images/library_directly_from_pipy.png' width='600' alt='python3 -m pip install -U discord.py'></button>
+<img src='resources/images/library_directly_from_pipy.png' width='600' alt='python3 -m pip install -U discord.py'>
 
 If you are using Windows, then the following should be used instead:
 <img src='resources/images/windows_install_discord_library.png' width='600' alt='py -3 -m pip install -U discord.py'>
