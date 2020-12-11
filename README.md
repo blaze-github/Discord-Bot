@@ -1,8 +1,8 @@
-<p align="center"><img src="bot-logo.png" alt="Bot Logo" width=256 height=256></p>
+<p align="center"><img src="resources/images/bot-logo.png" alt="Bot Logo" width=256 height=256></p>
 <h3 align="center">Soulless Bot</h3>
 <p align="center">Bot Documentation</p>
 <p align="center"><a href="#"><img src='https://raster.shields.io/badge/%20-Project%20is%20temporarily%20paused-red.svg?style=for-the-badge'></a>
-  
+
 ## Table of  Contents
 1. <a href='#1-overview'>Overview</a><br>
 2. <a href='#2-license'>License</a>
@@ -50,7 +50,7 @@ This project use **BSD-3-Clause License**.
 
 ### 3.2. How to get **discord** library
 You can get the library directly from PyPI:
-<img src='resources/images/library_directly_from_pipy.png' width='600' alt='python3 -m pip install -U discord.py'>
+<button style='border:none;' onclick='copyText.select(python3 -m pip install -U discord.py);'><img src='resources/images/library_directly_from_pipy.png' width='600' alt='python3 -m pip install -U discord.py'></button>
 
 If you are using Windows, then the following should be used instead:
 <img src='resources/images/windows_install_discord_library.png' width='600' alt='py -3 -m pip install -U discord.py'>
