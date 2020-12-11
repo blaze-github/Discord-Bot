@@ -35,13 +35,14 @@ import discord
 from discord.ext import commands
 import asyncio
 
+
 class TestCommands(commands.Cog):
     def __init__(self, client):
         # self.bot = bot
         self.client = client
 
     @commands.command()
-    async def timer(self,ctx):
+    async def timer(self, ctx):
         count = 320
         countdown = await ctx.message.channel.send('**{}**'.format(count))
         for i in range(count, -1, -1):
@@ -49,6 +50,7 @@ class TestCommands(commands.Cog):
             await countdown.edit(content='**{}**'.format(i))
             if i == 0:
                 await countdown.edit(content='**Time out**')
+
 
 def setup(bot):
     bot.add_cog(TestCommands(bot))

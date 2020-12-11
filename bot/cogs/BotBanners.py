@@ -39,7 +39,6 @@ from io import BytesIO
 import config
 import random
 import multiprocessing
-import autopep8
 
 
 class BotBanners(commands.Cog):
@@ -48,19 +47,12 @@ class BotBanners(commands.Cog):
 
         BotBanners.generate_main_banner(self)
 
-    @commands.Cog.listener()
-    async def on_ready(self):
-        with open('users.txt', 'w') as f:
-            for guild in self.bot.guilds:
-                async for member in guild.fetch_members(limit=None):
-                    print(member.avatar_url, file=f)
-
     def generate_main_banner(self):
         url = []
         with open('users.txt', 'r') as f:
             for line in f:
                 url.append(line)
-                print(random.choice(url))
+                # print(random.choice(url))
 
         banner_map = [[1] * 12 for n in range(4)]
 
@@ -78,10 +70,9 @@ class BotBanners(commands.Cog):
         result.paste(banner, (0, 0))
         for row in banner_map:
             for col in row:
-                for image in row:
-                    image = 'https://play-lh.googleusercontent.com/b0p_qGMKAcQoT0YWHzhTsol0j1rD6AMdgfvMKUFmR8IDXnYfNeldH7dfO4BoUqID2k0'
-                    icon = Image.open(BytesIO(requests.get(image).content))
-                    icon = icon.resize((icon_width, icon_height), Image.ANTIALIAS)
+                image = random.choice(url)
+                icon = Image.open(BytesIO(requests.get(image).content))
+                icon = icon.resize((icon_width, icon_height), Image.ANTIALIAS)
                 result.paste(icon, (x_pos, y_pos))
                 x_pos = x_pos + icon_width
             y_pos = y_pos + icon_height
@@ -94,14 +85,16 @@ class BotBanners(commands.Cog):
         text_x_pos = int((banner_width - text_width) / 2)
         text_y_pos = int((banner_height - text_height) / 2)
 
-        canvas.text((text_x_pos + 5, text_y_pos + 5), text_str, font=font, fill=(0, 0, 0))
-        canvas.text((text_x_pos, text_y_pos), text_str, font=font, fill=(225, 255, 255))
+        canvas.text((text_x_pos + 5, text_y_pos + 5),
+                    text_str, font=font, fill=(0, 0, 0))
+        canvas.text((text_x_pos, text_y_pos), text_str,
+                    font=font, fill=(225, 255, 255))
 
         result.save('banners/{}.png'.format(text_str))
 
+
 def setup(bot):
     bot.add_cog(BotBanners(bot))
-
 
 
 # TO DO:

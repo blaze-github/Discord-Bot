@@ -34,6 +34,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 import discord
 from discord.ext import commands
 
+
 class CommandEvents(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
@@ -46,8 +47,8 @@ class CommandEvents(commands.Cog):
         print(self.bot.user.id)
         print('---------------------')
 
-
-        activity = discord.Activity(type = discord.ActivityType.watching, name = '?help')
+        activity = discord.Activity(
+            type=discord.ActivityType.watching, name='?help')
         await self.bot.change_presence(status=discord.Status.online, activity=activity)
 
     @commands.Cog.listener()
@@ -58,7 +59,9 @@ class CommandEvents(commands.Cog):
 
     @commands.Cog.listener()
     async def on_command_completion(self, ctx):
-        print('</> Command "{}" was invoked successfully by {}.'.format(ctx.command.name, ctx.message.author))
+        print('</> Command "{}" was invoked successfully by {}.'.format(
+            ctx.command.name, ctx.message.author))
+
 
 def setup(bot):
     bot.add_cog(CommandEvents(bot))

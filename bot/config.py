@@ -1,3 +1,4 @@
+
 """
 
 BSD 3-Clause License
@@ -31,6 +32,12 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 """
+
+class BotConfiguration(self):
+    def __init__(self):
+
+        SERVER_NAME = self.guid.get
+
 PREFIX = '?'
 SERVER_NAME = 'DICKHEADS'
-TOKEN = '' 
+TOKEN = ''

@@ -38,20 +38,14 @@ This project use **BSD-3-Clause License**.
 
 
 ### 3.2. How to get **discord** library
-You can get the library directly from PyPI: <br>
-```
-python3 -m pip install -U discord.py
-```
+You can get the library directly from PyPI:
+<img src='resources/images/library_directly_from_pipy.png' width='600' alt='python3 -m pip install -U discord.py'>
 
-If you are using Windows, then the following should be used instead: <br>
-```
-py -3 -m pip install -U discord.py
-```
+If you are using Windows, then the following should be used instead:
+<img src='resources/images/windows_install_discord_library.png' width='600' alt='py -3 -m pip install -U discord.py'>
 
-For a Debian-based system, the following command will get these dependencies: <br>
-```
-$ apt install libffi-dev libnacl-dev python3-dev
-```
+For a Debian-based system, the following command will get these dependencies:
+<img src='resources/images/library_for_debian_based_system.png' width='600' alt='$ apt install libffi-dev libnacl-dev python3-dev'>
 
 ### 3.3. Choose an IDE
 <img src='https://raster.shields.io/badge/1-gray.svg?style=for-the-badge'> <a href='https://atom.io/'><img src='https://raster.shields.io/badge/Download-Atom-brightgreen.svg?style=for-the-badge&logo=atom'></a>
