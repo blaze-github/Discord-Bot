@@ -1,7 +1,7 @@
-<p align="center"><img src="resources/images/bot-logo.png" alt="Bot Logo" width=256 height=256></p>
-<h3 align="center">Soulless Bot</h3>
+<p align="center"><img src="resources/images/banner2.png" alt="Bot Logo" height=300></p>
+<h3 align="center">Hachi Bot</h3>
 <p align="center">Bot Documentation</p>
-<p align="center"><a href="#"><img src='https://raster.shields.io/badge/%20-Project%20is%20temporarily%20paused-red.svg?style=for-the-badge'></a>
+<p align="center"><a href="#"><img src='https://raster.shields.io/badge/%20-Project%20is%20temporarily%20paused-f8ae5e.svg?style=for-the-badge'></a>
 
 ## Table of  Contents
 1. <a href='#1-overview'>Overview</a><br>
@@ -19,11 +19,21 @@
 6. <a href='#6-help'>Help</a>
 
 ## 1. Overview
-### What is Soulles bot?
+### What is Hachi bot?
 
-Soulles bot is a fun free project for everyone and always will be. If you like this project, you can leave [here](https://github.com/blaze-github/Discord-Bot/issues/new?assignees=&labels=&template=project-ideas.md&title=) an idea that will possibly be realized in the next update, but if you found any mistake in my code or you can make it better you can contact me in [Discord](https://discord.gg/zsFS4v5zvf) or leave a request [here](https://github.com/blaze-github/Discord-Bot/issues/new?assignees=&labels=&template=mistakes-or-errors.md&title=).
+Hachi bot is a fun free project for everyone and always will be. If you like this project, you can leave [here](https://github.com/blaze-github/Discord-Bot/issues/new?assignees=&labels=&template=project-ideas.md&title=) an idea that will possibly be realized in the next update, but if you found any mistake in my code or you can make it better you can contact me in [Discord](https://discord.gg/zsFS4v5zvf) or leave a request [here](https://github.com/blaze-github/Discord-Bot/issues/new?assignees=&labels=&template=mistakes-or-errors.md&title=).
 
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/9ab3a275d1b44aa5a6989d3e00226eca)](https://www.codacy.com/gh/blaze-github/Discord-Bot/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=blaze-github/Discord-Bot&amp;utm_campaign=Badge_Grade) [![Discord Bots](https://top.gg/api/widget/status/766415375856304150.svg)](https://top.gg/bot/766415375856304150) ![GitHub All Releases](https://img.shields.io/github/downloads/blaze-github/Discord-Bot/total?style=social)
+### Why Hachi?
+
+```I will add description shortly```
+
+<!--
+
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/9ab3a275d1b44aa5a6989d3e00226eca)](https://www.codacy.com/gh/blaze-github/Discord-Bot/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=blaze-github/Discord-Bot&amp;utm_campaign=Badge_Grade) 
+[![Discord Bots](https://top.gg/api/widget/status/766415375856304150.svg)](https://top.gg/bot/766415375856304150) 
+![GitHub All Releases](https://img.shields.io/github/downloads/blaze-github/Discord-Bot/total?style=social)
+
+-->
 ## 2. License
 This project use **BSD-3-Clause License**.  
 
@@ -49,16 +59,22 @@ This project use **BSD-3-Clause License**.
 ### 3.2. How to get **discord** library
 You can get the library directly from PyPI:
 
-<img src='resources/images/library_directly_from_pipy.png' width='600' alt='python3 -m pip install -U discord.py'>
-
+[//]: <> (<img src='resources/images/library_directly_from_pipy.png' width='600' alt='python3 -m pip install -U discord.py'>)
+```
+python3 -m pip install -U discord.py
+```
 If you are using Windows, then the following should be used instead:
 
-<img src='resources/images/windows_install_discord_library.png' width='600' alt='py -3 -m pip install -U discord.py'>
-
+[//]: <> (<img src='resources/images/windows_install_discord_library.png' width='600' alt='py -3 -m pip install -U discord.py'>)
+```
+py -3 -m pip install -U discord.py
+```
 For a Debian-based system, the following command will get these dependencies:
 
-<img src='resources/images/library_for_debian_based_system.png' width='600' alt='$ apt install libffi-dev libnacl-dev python3-dev'>
-
+[//]: <> (<img src='resources/images/library_for_debian_based_system.png' width='600' alt='$ apt install libffi-dev libnacl-dev python3-dev'>)
+````
+$ apt install libffi-dev libnacl-dev python3-dev
+````
 ### 3.3. Choose an IDE
 <img src='https://raster.shields.io/badge/1-gray.svg?style=for-the-badge'> <a href='https://atom.io/'><img src='https://raster.shields.io/badge/Download-Atom-brightgreen.svg?style=for-the-badge&logo=atom'></a>
 <br>
