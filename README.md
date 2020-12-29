@@ -1,4 +1,4 @@
-<p align="center"><img src="resources/images/banner2.png" alt="Bot Logo" height=300></p>
+<p align="center"><img src="resources/images/logo.svg" alt="Bot Logo" height=300></p>
 <h3 align="center">Hachi Bot</h3>
 <p align="center">Bot Documentation</p>
 <p align="center"><a href="#"><img src='https://raster.shields.io/badge/%20-Project%20is%20temporarily%20paused-f8ae5e.svg?style=for-the-badge'></a>
